@@ -1,0 +1,33 @@
+{
+    "name": "Restraunt-Page",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "watch": "webpack --watch",
+        "start": "webpack serve --open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/data-pirate/Restraunt-Page.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/data-pirate/Restraunt-Page/issues"
+    },
+    "homepage": "https://github.com/data-pirate/Restraunt-Page#readme",
+    "devDependencies": {
+        "css-loader": "^6.4.0",
+        "style-loader": "^3.3.0",
+        "webpack": "^5.59.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.3.1"
+    },
+    "dependencies": {
+        "util": "^0.12.4"
+    }
+}
